@@ -1,0 +1,9 @@
+[project]
+name = "solar-crm"
+version = "0.1.0"
+description = "CRM solar frontend-only con Reflex y cotizador reactivo"
+requires-python = ">=3.10"
+dependencies = ["reflex>=0.6.0,<1.0.0"]
+
+[tool.reflex]
+app_name = "solar_crm"
